@@ -1,15 +1,9 @@
 <ArrayOfGangTerritory xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <GangTerritory>
-    <ZoneInternalGameName>SANDY</ZoneInternalGameName>
-    <GangID>AMBIENT_GANG_HILLBILLY</GangID>
+	<GangTerritory>
+    <ZoneInternalGameName>AIRP</ZoneInternalGameName>
+    <GangID>AMBIENT_GANG_ATLLSSD</GangID>
     <Priority>0</Priority>
-    <AmbientSpawnChance>50</AmbientSpawnChance>
-  </GangTerritory>
-  <GangTerritory>
-    <ZoneInternalGameName>SANDY</ZoneInternalGameName>
-    <GangID>AMBIENT_GANG_ATLBC</GangID>
-    <Priority>1</Priority>
-    <AmbientSpawnChance>50</AmbientSpawnChance>
+    <AmbientSpawnChance>100</AmbientSpawnChance>
   </GangTerritory>
 	<GangTerritory>
     <ZoneInternalGameName>ALTA</ZoneInternalGameName>
@@ -71,6 +65,30 @@
     <Priority>1</Priority>
     <AmbientSpawnChance>50</AmbientSpawnChance>
   </GangTerritory>
+	<GangTerritory>
+    <ZoneInternalGameName>GRAPES</ZoneInternalGameName>
+    <GangID>AMBIENT_GANG_PAVANO</GangID>
+    <Priority>0</Priority>
+    <AmbientSpawnChance>100</AmbientSpawnChance>
+  </GangTerritory>
+	<GangTerritory>
+    <ZoneInternalGameName>GRAPES</ZoneInternalGameName>
+    <GangID>AMBIENT_GANG_ATLBC</GangID>
+    <Priority>1</Priority>
+    <AmbientSpawnChance>50</AmbientSpawnChance>
+  </GangTerritory>
+	<GangTerritory>
+    <ZoneInternalGameName>HARMO</ZoneInternalGameName>
+    <GangID>AMBIENT_GANG_ANGELS</GangID>
+    <Priority>0</Priority>
+    <AmbientSpawnChance>100</AmbientSpawnChance>
+  </GangTerritory>
+	<GangTerritory>
+    <ZoneInternalGameName>HARMO</ZoneInternalGameName>
+    <GangID>AMBIENT_GANG_ATLBC</GangID>
+    <Priority>1</Priority>
+    <AmbientSpawnChance>50</AmbientSpawnChance>
+  </GangTerritory>
   <GangTerritory>
     <ZoneInternalGameName>HAWICK</ZoneInternalGameName>
     <GangID>AMBIENT_GANG_ATLLSPD</GangID>
@@ -114,6 +132,30 @@
     <AmbientSpawnChance>50</AmbientSpawnChance>
   </GangTerritory>
 	<GangTerritory>
+    <ZoneInternalGameName>MURRI</ZoneInternalGameName>
+    <GangID>AMBIENT_GANG_MARABUNTE</GangID>
+    <Priority>0</Priority>
+    <AmbientSpawnChance>100</AmbientSpawnChance>
+  </GangTerritory>
+	<GangTerritory>
+    <ZoneInternalGameName>MURRI</ZoneInternalGameName>
+    <GangID>AMBIENT_GANG_ATLLSSD</GangID>
+    <Priority>1</Priority>
+    <AmbientSpawnChance>50</AmbientSpawnChance>
+  </GangTerritory>
+	<GangTerritory>
+    <ZoneInternalGameName>PALETO</ZoneInternalGameName>
+    <GangID>AMBIENT_GANG_LUPISELLA</GangID>
+    <Priority>0</Priority>
+    <AmbientSpawnChance>100</AmbientSpawnChance>
+  </GangTerritory>
+	<GangTerritory>
+    <ZoneInternalGameName>PALETO</ZoneInternalGameName>
+    <GangID>AMBIENT_GANG_ATLBC</GangID>
+    <Priority>1</Priority>
+    <AmbientSpawnChance>50</AmbientSpawnChance>
+  </GangTerritory>
+	<GangTerritory>
     <ZoneInternalGameName>PBOX</ZoneInternalGameName>
     <GangID>AMBIENT_GANG_WEICHENG</GangID>
     <Priority>0</Priority>
@@ -122,6 +164,18 @@
   <GangTerritory>
     <ZoneInternalGameName>PBOX</ZoneInternalGameName>
     <GangID>AMBIENT_GANG_ATLLSPD</GangID>
+    <Priority>1</Priority>
+    <AmbientSpawnChance>50</AmbientSpawnChance>
+  </GangTerritory>
+	<GangTerritory>
+    <ZoneInternalGameName>SANDY</ZoneInternalGameName>
+    <GangID>AMBIENT_GANG_HILLBILLY</GangID>
+    <Priority>0</Priority>
+    <AmbientSpawnChance>50</AmbientSpawnChance>
+  </GangTerritory>
+  <GangTerritory>
+    <ZoneInternalGameName>SANDY</ZoneInternalGameName>
+    <GangID>AMBIENT_GANG_ATLBC</GangID>
     <Priority>1</Priority>
     <AmbientSpawnChance>50</AmbientSpawnChance>
   </GangTerritory>

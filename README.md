@@ -25,6 +25,7 @@ A RAGE Plugin Hook mod for GTA V with Los Santos RED integration.
 Edit `AboveTheLaw_Settings.xml` to change keys.
 
 ## Booking Locations
+Look for the blue cylinder marker at each station.
 - BCSO Sandy Shores
 - Paleto Bay SO
 - La Mesa PD
@@ -33,7 +34,10 @@ Edit `AboveTheLaw_Settings.xml` to change keys.
 
 ## Mp Maps need to be enabled in Los Santos Red
 
-Look for the blue cylinder marker at each station.
+## To activate the Plugin
+1. Open Rage Console
+2. Type, without quotes "LoadPlugin AboveTheLaw.dll"
+3. Press Enter then close Rage Console
 
 ## Credits
 - Built with RAGE Plugin Hook

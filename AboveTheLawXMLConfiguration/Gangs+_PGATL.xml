@@ -52,8 +52,8 @@
       <ArsonPaymentMin>1000</ArsonPaymentMin>
       <ArsonPaymentMax>2000</ArsonPaymentMax>
       <FightPercentage>75</FightPercentage>
-      <FightPolicePercentage>5</FightPolicePercentage>
-      <AlwaysFightPolicePercentage>2</AlwaysFightPolicePercentage>
+      <FightPolicePercentage>1</FightPolicePercentage>
+      <AlwaysFightPolicePercentage>1</AlwaysFightPolicePercentage>
       <DrugDealerPercentage>85</DrugDealerPercentage>
       <DealerMenuGroup>EvidenceLockerDealerMenu</DealerMenuGroup>
       <AmbientMemberMoneyMin>500</AmbientMemberMoneyMin>
@@ -102,6 +102,9 @@
       <GangClassification>Mafia</GangClassification>
       <EnemyGangs>
         <string>AMBIENT_GANG_MADRAZO</string>
+				<string>AMBIENT_GANG_ANGELS</string>
+				<string>AMBIENT_GANG_PAVANO</string>
+				<string>AMBIENT_GANG_ANCELOTTI</string>
       </EnemyGangs>
 			<PercentageWillRacePlayer>55</PercentageWillRacePlayer>
     </Gang>
@@ -158,8 +161,8 @@
       <ArsonPaymentMin>1000</ArsonPaymentMin>
       <ArsonPaymentMax>2000</ArsonPaymentMax>
       <FightPercentage>75</FightPercentage>
-      <FightPolicePercentage>5</FightPolicePercentage>
-      <AlwaysFightPolicePercentage>2</AlwaysFightPolicePercentage>
+      <FightPolicePercentage>1</FightPolicePercentage>
+      <AlwaysFightPolicePercentage>1</AlwaysFightPolicePercentage>
       <DrugDealerPercentage>85</DrugDealerPercentage>
       <DealerMenuGroup>EvidenceLockerDealerMenu</DealerMenuGroup>
       <AmbientMemberMoneyMin>500</AmbientMemberMoneyMin>
@@ -208,6 +211,118 @@
       <GangClassification>Mafia</GangClassification>
       <EnemyGangs>
         <string>AMBIENT_GANG_MADRAZO</string>
+				<string>AMBIENT_GANG_KKANGPAE</string>
+				<string>AMBIENT_GANG_WEICHENG</string>
+				<string>AMBIENT_GANG_MESSINA</string>
+      </EnemyGangs>
+			<PercentageWillRacePlayer>55</PercentageWillRacePlayer>
+    </Gang>
+		<Gang>
+      <ID>AMBIENT_GANG_ATLLSSD</ID>
+      <FullName>Above the Law LSSD</FullName>
+      <ShortName>Above the Law LSSD</ShortName>
+      <MemberName>ATLLSSDDeputy</MemberName>
+      <ContactName>ATLLSSD Under Sheriff</ContactName>
+      <DenName>ATLLSSD Main Office</DenName>
+      <ColorPrefix>~u~</ColorPrefix>
+      <ColorString>White</ColorString>
+      <LicensePlatePrefix>083Y </LicensePlatePrefix>
+      <SpawnLimit>15</SpawnLimit>
+      <CanSpawnAnywhere>false</CanSpawnAnywhere>
+      <MinWantedLevelSpawn>0</MinWantedLevelSpawn>
+      <MaxWantedLevelSpawn>6</MaxWantedLevelSpawn>
+      <HeadDataGroupID>AllHeads</HeadDataGroupID>
+      <PersonnelID>ATLLSSDPeds</PersonnelID>
+      <MeleeWeaponsID>Nightsticks</MeleeWeaponsID>
+      <SideArmsID>LSSDSidearms</SideArmsID>
+      <LongGunsID>LSSDLongGuns</LongGunsID>
+      <VehiclesID>ATLLSSDVehicles</VehiclesID>
+      <MinimumRep>-15000</MinimumRep>
+      <MaximumRep>15000</MaximumRep>
+      <StartingRep>0</StartingRep>
+      <HostileRepLevel>-100</HostileRepLevel>
+      <NeutralRepLevel>0</NeutralRepLevel>
+      <FriendlyRepLevel>2500</FriendlyRepLevel>
+      <MemberOfferRepLevel>10000</MemberOfferRepLevel>
+      <HitSquadRep>-500</HitSquadRep>
+      <AddAmbientRep>true</AddAmbientRep>
+      <GameTimeToRecoverAmbientRep>5000</GameTimeToRecoverAmbientRep>
+      <PickupPaymentMin>500</PickupPaymentMin>
+      <PickupPaymentMax>1500</PickupPaymentMax>
+      <TheftPaymentMin>1500</TheftPaymentMin>
+      <TheftPaymentMax>3000</TheftPaymentMax>
+      <HitPaymentMin>3000</HitPaymentMin>
+      <HitPaymentMax>6000</HitPaymentMax>
+      <DeliveryPaymentMin>1500</DeliveryPaymentMin>
+      <DeliveryPaymentMax>2500</DeliveryPaymentMax>
+      <WheelmanPaymentMin>7500</WheelmanPaymentMin>
+      <WheelmanPaymentMax>15000</WheelmanPaymentMax>
+      <ImpoundTheftPaymentMin>3000</ImpoundTheftPaymentMin>
+      <ImpoundTheftPaymentMax>5500</ImpoundTheftPaymentMax>
+      <BodyDisposalPaymentMin>3500</BodyDisposalPaymentMin>
+      <BodyDisposalPaymentMax>6000</BodyDisposalPaymentMax>
+      <CopHitPaymentMin>5000</CopHitPaymentMin>
+      <CopHitPaymentMax>14000</CopHitPaymentMax>
+			<AmbushPaymentMin>5000</AmbushPaymentMin>
+      <AmbushPaymentMax>15000</AmbushPaymentMax>
+      <BriberyPaymentMin>3000</BriberyPaymentMin>
+      <BriberyPaymentMax>5500</BriberyPaymentMax>
+      <ArsonPaymentMin>1000</ArsonPaymentMin>
+      <ArsonPaymentMax>2000</ArsonPaymentMax>
+      <FightPercentage>75</FightPercentage>
+      <FightPolicePercentage>1</FightPolicePercentage>
+      <AlwaysFightPolicePercentage>1</AlwaysFightPolicePercentage>
+      <DrugDealerPercentage>85</DrugDealerPercentage>
+      <DealerMenuGroup>EvidenceLockerDealerMenu</DealerMenuGroup>
+      <AmbientMemberMoneyMin>500</AmbientMemberMoneyMin>
+      <AmbientMemberMoneyMax>700</AmbientMemberMoneyMax>
+      <DealerMemberMoneyMin>1500</DealerMemberMoneyMin>
+      <DealerMemberMoneyMax>2500</DealerMemberMoneyMax>
+      <CostToPayoffGangScalar>10</CostToPayoffGangScalar>
+      <RemoveRepOnWantedInTerritory>true</RemoveRepOnWantedInTerritory>
+      <RemoveRepOnWantedInTerritoryScalar>5</RemoveRepOnWantedInTerritoryScalar>
+      <PercentageTrustingOfPlayer>75</PercentageTrustingOfPlayer>
+      <PercentageWithLongGuns>50</PercentageWithLongGuns>
+      <PercentageWithSidearms>100</PercentageWithSidearms>
+      <PercentageWithMelee>100</PercentageWithMelee>
+      <VehicleSpawnPercentage>75</VehicleSpawnPercentage>
+      <PedestrianSpawnPercentageAroundDen>70</PedestrianSpawnPercentageAroundDen>
+      <MemberKickUpDays>28</MemberKickUpDays>
+      <MemberKickUpAmount>15000</MemberKickUpAmount>
+      <MemberKickUpMissLimit>3</MemberKickUpMissLimit>
+      <MembersGetFreeVehicles>true</MembersGetFreeVehicles>
+      <MembersGetFreeWeapons>true</MembersGetFreeWeapons>
+      <LoanParameters>
+				<LoanParamterList>
+					<LoanParameter>
+						<ResepectLevel>Neutral</ResepectLevel>
+						<Rate>0.1</Rate>
+						<MaxPeriods>4</MaxPeriods>
+						<MinAmount>500</MinAmount>
+						<MaxAmount>5000</MaxAmount>
+					</LoanParameter>
+					<LoanParameter>
+						<ResepectLevel>Friendly</ResepectLevel>
+						<Rate>0.04</Rate>
+						<MaxPeriods>4</MaxPeriods>
+						<MinAmount>500</MinAmount>
+						<MaxAmount>15000</MaxAmount>
+					</LoanParameter>
+					<LoanParameter>
+						<ResepectLevel>Member</ResepectLevel>
+						<Rate>0.02</Rate>
+						<MaxPeriods>4</MaxPeriods>
+						<MinAmount>500</MinAmount>
+						<MaxAmount>25000</MaxAmount>
+					</LoanParameter>
+				</LoanParamterList>
+			</LoanParameters>
+      <GangClassification>Mafia</GangClassification>
+      <EnemyGangs>
+        <string>AMBIENT_GANG_MADRAZO</string>
+				<string>AMBIENT_GANG_LOST</string>
+				<string>AMBIENT_GANG_DIABLOS</string>
+				<string>AMBIENT_GANG_ARMENIAN</string>
       </EnemyGangs>
 			<PercentageWillRacePlayer>55</PercentageWillRacePlayer>
     </Gang>
