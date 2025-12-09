@@ -11,6 +11,7 @@ public class SettingsManager
     public Keys PullOverKey { get; set; } = Keys.E;
     public Keys CuffKey { get; set; } = Keys.T;
     public Keys BackseatKey { get; set; } = Keys.Y;
+    public Keys VehicleControlKey { get; set; } = Keys.LControlKey; // Default Left Ctrl
 
     public SettingsManager(string folder)
     {
@@ -35,9 +36,13 @@ public class SettingsManager
                 PullOverKey = loaded.PullOverKey;
                 CuffKey = loaded.CuffKey;
                 BackseatKey = loaded.BackseatKey;
+                VehicleControlKey = loaded.VehicleControlKey;
             }
         }
-        catch { SaveSettings(); }
+        catch
+        {
+            SaveSettings();
+        }
     }
 
     public void SaveSettings()
